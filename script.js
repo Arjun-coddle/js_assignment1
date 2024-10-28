@@ -40,7 +40,11 @@ let sampleBigInt = 12345678901234567890n;
 console.log(sampleBigInt, typeof sampleBigInt);
 
 // 2.Write a JS program to show an alert message on the loading of the website.
+<<<<<<< HEAD
 alert("wellcome");
+=======
+ alert("wellcome");
+>>>>>>> 4cbc154ff6c31a568a5c37ad6c1fb304e0148c3f
 
 
 //3.["1", "2", "3", "4", "5", "6", "7"] 
@@ -50,6 +54,7 @@ let a = ["1", "2", "3", "4", "5", "6", "7"];
 a.splice(a.indexOf("6"), 1);
 console.log(a);
 
+<<<<<<< HEAD
 
 //b. Convert all the items of the array to data type number and console each items data type, use any of the array iteration methods provided by JS for iteration.
 a.forEach((value,index)=>{
@@ -57,6 +62,15 @@ a.forEach((value,index)=>{
     console.log(a[index], typeof a[index]);
 })
 
+=======
+
+//b. Convert all the items of the array to data type number and console each items data type, use any of the array iteration methods provided by JS for iteration.
+for (let i = 0; i < a.length; i++) {
+    a[i] = Number(a[i]);
+    console.log(a[i], typeof a[i]);
+}
+
+>>>>>>> 4cbc154ff6c31a568a5c37ad6c1fb304e0148c3f
 
 //c. Remove last three items of the array, use JS provided array method, then console the array and then add "one" and "two" (strings) to the beginning of the array and console the array. 
 a.splice(-3, 3);
